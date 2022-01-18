@@ -1,6 +1,53 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0 auto;
+  height: 1000px;
+  width: 95%;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.row{
+  margin: 40px;
+}
+
+.card{
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  
+}
+
+img{
+  width: 100%;
+}
+
+.sconto{
+  position: absolute;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.sconto-bg-red{
+  left: 0;
+  bottom: 30px;
+  background-color: rgb(204, 15, 94);
+  color: white;
+}
+
+.sconto-bg-green{
+  left: 60px;
+  bottom: 30px;
+  background-color: rgb(30, 163, 4);
+  color: white;
+}
+
+.prezzo-color-red{
+  color: red;
+  font-weight: 900;
 }
