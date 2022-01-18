@@ -9,6 +9,7 @@
   height: 1000px;
   width: 95%;
   font-family: 'Be Vietnam Pro', sans-serif;
+  text-align: center;
 }
 
 .row{
@@ -16,17 +17,21 @@
 }
 
 .card{
-  display: inline-block;
+  display:inline-block;
   width: 30%;
   position: relative;
-  
+  margin: 5px;
 }
 
 img{
   width: 100%;
 }
 
-.sconto{
+.img-iniziale{
+  position: relative;
+}
+
+.inside-image {
   position: absolute;
   color: white;
   padding: 10px;
@@ -36,18 +41,53 @@ img{
 .sconto-bg-red{
   left: 0;
   bottom: 30px;
-  background-color: rgb(204, 15, 94);
+  background-color: #ff007b;
   color: white;
 }
 
 .sconto-bg-green{
   left: 60px;
   bottom: 30px;
-  background-color: rgb(30, 163, 4);
+  background-color: #28b400;
   color: white;
 }
 
+
+
+.cuore{
+  right: 0;
+  top: 20px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+
+.img-secondaria{
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+.testo-sotto-immigini{
+  position: absolute;
+  left: 0;
+  top: 600px;
+  text-align: left;
+}
+
+.card:hover .img-secondaria{
+  display: inline;
+}
+
+.row-sotto{
+  padding-top: 50px;
+}
+
+.marca{
+  font-size: 15px;
+}
+
 .prezzo-color-red{
-  color: red;
+  color: #ff007b;
   font-weight: 900;
 }
